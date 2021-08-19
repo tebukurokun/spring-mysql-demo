@@ -10,12 +10,12 @@ data class Person(
     val id: Long,
 
 
-    @Column(name = "name", nullable = false)
-    val name: String,
+    @Column(name = "name")
+    val name: String?,
 
 
-    @Column(name = "age", nullable = false)
-    val age: Long
+    @Column(name = "age")
+    val age: Long?
 
 )
 
